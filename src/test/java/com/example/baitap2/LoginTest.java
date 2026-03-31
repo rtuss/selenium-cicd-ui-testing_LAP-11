@@ -26,7 +26,8 @@ public class LoginTest {
 
         Thread.sleep(5000); // giữ browser 5 giây để thấy rõ
 
-        Assert.assertTrue(true);
+        //Assert.assertTrue(true);
+        Assert.assertTrue(false);
     }
 
     @Test(groups = {"regression"})
@@ -36,7 +37,8 @@ public class LoginTest {
 
         Thread.sleep(5000);
 
-        Assert.assertTrue(true);
+        //Assert.assertTrue(true);
+        Assert.assertTrue(false);
     }
 
     @AfterMethod
