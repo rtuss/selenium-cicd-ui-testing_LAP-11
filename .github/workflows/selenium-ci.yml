@@ -2,7 +2,7 @@ name: Selenium Test Suite
 
 on:
   push:
-    branches: [ "main", "develop" ]
+    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
@@ -24,8 +24,6 @@ jobs:
 
       - name: Chạy Selenium Tests
         run: mvn clean test "-DsuiteXmlFile=testng-smoke.xml"
-        env:
-          APP_PASSWORD: ${{ secrets.SAUCEDEMO_PASSWORD }}
 
       - name: Lưu kết quả test
         if: always()
