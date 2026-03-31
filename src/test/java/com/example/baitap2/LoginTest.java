@@ -18,7 +18,7 @@ public class LoginTest {
 
         System.out.println("Setup LoginTest - Thread ID: " + Thread.currentThread().getId());
     }
-
+    //Include với Tesng-smoke 
     @Test(groups = {"smoke","regression"})
     public void testLoginSuccess() throws InterruptedException {
 

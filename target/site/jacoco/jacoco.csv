@@ -1,7 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-bai1_selenium,com.example.baitap3,TinhTienNuoc,40,0,10,0,12,0,7,0,2,0
-bai1_selenium,com.example,App,7,0,0,0,3,0,2,0,2,0
-bai1_selenium,com.example,XepLoaiService,37,0,12,0,12,0,8,0,2,0
-bai1_selenium,com.example.baitap6,PhoneValidator,71,0,22,0,20,0,13,0,2,0
-bai1_selenium,com.example.baitap5,VayVon,22,0,8,0,8,0,6,0,2,0
-bai1_selenium,com.example.baitap4,PhiShip,71,0,14,0,18,0,9,0,2,0

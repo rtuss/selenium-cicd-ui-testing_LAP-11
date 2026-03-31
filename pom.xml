@@ -123,13 +123,13 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.8.11</version>
+        <version>0.8.12</version>
         <executions>
-          <execution>
+          <!-- <execution>
             <goals>
               <goal>prepare-agent</goal>
             </goals>
-          </execution>
+          </execution> -->
           <execution>
             <id>report</id>
             <phase>test</phase>
